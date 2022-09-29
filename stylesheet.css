@@ -119,8 +119,8 @@ html {
     box-sizing: border-box;
 }
 
-input[text=text], select, textarea {
-    width: 100px;
+input[type=text], select, textarea {
+    width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     margin-top: 6px;
@@ -153,7 +153,7 @@ input[type=submit]:hover {
     padding: 60px;
 }
 
-.row::after {
+.row:after {
     content: "";
     display: table;
     clear: both;
